@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5836EC169C6B8F0026DD5E /* map.html in Resources */ = {isa = PBXBuildFile; fileRef = 0B5836EB169C6B8F0026DD5E /* map.html */; };
 		0BBAECDA169C5221004089D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBAECD9169C5221004089D0 /* UIKit.framework */; };
 		0BBAECDC169C5221004089D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBAECDB169C5221004089D0 /* Foundation.framework */; };
 		0BBAECDE169C5221004089D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBAECDD169C5221004089D0 /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 		0BBAED03169C5221004089D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBAECDB169C5221004089D0 /* Foundation.framework */; };
 		0BBAED0B169C5221004089D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BBAED09169C5221004089D0 /* InfoPlist.strings */; };
 		0BBAED0E169C5222004089D0 /* webCompTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBAED0D169C5222004089D0 /* webCompTests.m */; };
+		0BC2BF71169D655A00609C14 /* map.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B5836EB169C6B8F0026DD5E /* map.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0BC2BF6F169D63CD00609C14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				0BC2BF71169D655A00609C14 /* map.html in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0B5836EB169C6B8F0026DD5E /* map.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = map.html; path = webComp/map.html; sourceTree = SOURCE_ROOT; };
 		0BBAECD5169C5221004089D0 /* webComp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webComp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBAECD9169C5221004089D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0BBAECDB169C5221004089D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +105,7 @@
 		0BBAECCA169C5221004089D0 = {
 			isa = PBXGroup;
 			children = (
+				0B5836EB169C6B8F0026DD5E /* map.html */,
 				0BBAECDF169C5221004089D0 /* webComp */,
 				0BBAED06169C5221004089D0 /* webCompTests */,
 				0BBAECD8169C5221004089D0 /* Frameworks */,
@@ -173,6 +190,7 @@
 				0BBAECD1169C5221004089D0 /* Sources */,
 				0BBAECD2169C5221004089D0 /* Frameworks */,
 				0BBAECD3169C5221004089D0 /* Resources */,
+				0BC2BF6F169D63CD00609C14 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -240,6 +258,7 @@
 				0BBAECF0169C5221004089D0 /* Default-568h@2x.png in Resources */,
 				0BBAECF3169C5221004089D0 /* MainStoryboard_iPhone.storyboard in Resources */,
 				0BBAECF6169C5221004089D0 /* MainStoryboard_iPad.storyboard in Resources */,
+				0B5836EC169C6B8F0026DD5E /* map.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +412,7 @@
 				GCC_PREFIX_HEADER = "webComp/webComp-Prefix.pch";
 				INFOPLIST_FILE = "webComp/webComp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,6 +424,7 @@
 				GCC_PREFIX_HEADER = "webComp/webComp-Prefix.pch";
 				INFOPLIST_FILE = "webComp/webComp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +482,7 @@
 				0BBAED13169C5222004089D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BBAED14169C5222004089D0 /* Build configuration list for PBXNativeTarget "webCompTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +491,7 @@
 				0BBAED16169C5222004089D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
